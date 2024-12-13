@@ -13,7 +13,8 @@ namespace _420DA3_Examen_Final.Business.Services
     {
         private AuteurDAO dao;
         
-        public AuteurServices(MyDbContext context)
+        
+        public AuteurServices(MyDbContext context ,MyApplication parentApp)
         {
             this.dao = new AuteurDAO(context);
         }
