@@ -20,9 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Business\Domain\" />
     <Folder Include="Business\Services\" />
-    <Folder Include="DataAccess\" />
     <Folder Include="Presentation\" />
   </ItemGroup>
 
